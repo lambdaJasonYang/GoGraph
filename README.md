@@ -1,3 +1,5 @@
+[![Go Reference](https://pkg.go.dev/badge/github.com/UserJY/GoGraph#section-documentation.svg)](https://pkg.go.dev/github.com/UserJY/GoGraph#section-documentation)
+
 # GoGraph
 
 * graph data structure that is compatible with javascript's SigmaJS and Graphology
