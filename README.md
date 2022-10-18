@@ -7,17 +7,18 @@
 # How to Use
 
 ```bash
-go get -u github.com/UserJY/GoSigma
+go get -u github.com/UserJY/GoGraph
 ```
 
 ```bash
 package main
 
-import "github.com/UserJY/GoSigma" 
+import "github.com/UserJY/GoGraph" 
 
 func main(){
-	somegraph := gosigma.MakeRandomGraph()
+	somegraph := gograph.MakeRandomGraph()
+	
 	somegraph.Print()
-  somegraph.ExportJSON("out.json")
+  	somegraph.ExportJSON("out.json")
 }
 ```
