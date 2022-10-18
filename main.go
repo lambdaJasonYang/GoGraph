@@ -10,10 +10,6 @@ import (
 	
 )
 
-type GenericGraphObj interface {
-    Node | NodeAttr | Edge | EdgeAttr | SigmaGraph
-}
-
 type Node struct {
 	Key string  `json:"key"`
 	Attributes NodeAttr `json:"attributes"`
